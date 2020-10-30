@@ -1,13 +1,16 @@
 public class Main {
 
     public static void main(String[] args) {
-
+        // Here
     }
 
     public static void longestStreak(String str) {
         // Declare a String to print
+        String returnString;
         // Declare an int to track longest streak =1
+        int qwer = 1;
         // Declare a String for which letter is repeated the most, init to first letter
+        String repLetter = str.substring(0,1);
         // Declare an int for current streak =1
         // Declare a String for current letter
 
