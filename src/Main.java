@@ -43,7 +43,7 @@ public class Main {
                 currentLetter = str.substring(i+1, i+2);
             }
         }
-        System.out.println("Final: " + longLetter + " " + longStreak);
+        System.out.println("The letter is \"" + longLetter + "\" with a streak of " + longStreak + ".");
     }
 
 }
