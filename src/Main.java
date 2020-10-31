@@ -19,7 +19,7 @@ public class Main {
         // Declare an int for current streak =1
         int currentStreak = 1;
         // Declare a String for current letter
-        String currentLetter;
+        //String currentLetter;
         // Loop for String str
         for (int i = 1; i < str.length(); i++) {
             // See if current letter equals previous letter
@@ -40,10 +40,9 @@ public class Main {
                 // Set current streak to 1
                 currentStreak = 1;
                 // Reset current letter
-                currentLetter = str.substring(i+1, i+2);
+                //currentLetter = str.substring(i+1, i+2);
             }
         }
         System.out.println("The letter is \"" + longLetter + "\" with a streak of " + longStreak + ".");
     }
-
 }
